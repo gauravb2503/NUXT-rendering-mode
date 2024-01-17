@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Apple XR",
+        "price": "200$",
+        "item_id": "aaeeb3123cla909910",
+        "description": "Smart Phone"
+    },
+    {
+        "name": "Apple 15",
+        "price": "500$",
+        "item_id": "aaeeb3123cla909912",
+        "description": "Smart Phone"
+    },
+    {
+        "name": "Toaster",
+        "price": "100$",
+        "item_id": "aaeeb3123cla909913",
+        "description": "Bread Toaster"
+    },
+    {
+        "name": "Air Conditioner",
+        "price": "300$",
+        "item_id": "aaeeb3123cla909914",
+        "description": "Smart Air conditioner for hot summers"
+    },
+    {
+        "name": "Mixer Grinder",
+        "price": "90$",
+        "item_id": "aaeeb3123cla909915",
+        "description": "Mixer and Grinder"
+    },
+    {
+        "name": "TV",
+        "price": "780$",
+        "item_id": "aaeeb3123cla909916",
+        "description": "Smart TV with Android 15"
+    }
+]
