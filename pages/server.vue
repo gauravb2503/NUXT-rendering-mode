@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto mt-8">
-    <h1 class="text-4xl font-bold mb-4">Client Side Rendering (CSR)</h1>
+    <h1 class="text-4xl font-bold mb-4">Server Side Rendering (SSR)</h1>
     <p v-if="pending">Loading Table...</p>
     <div v-else class="overflow-x-auto">
       <table class="min-w-full bg-white border border-gray-300">
@@ -26,8 +26,27 @@
         </tbody>
       </table>
     </div>
+    <div class="diagram-container">
+      <img v-if="!pending" class="diagram" src="/assets/images/ssr.png" />
+    </div>
   </div>
 </template>
 <script setup lang="ts">
-const {data: products, pending} = await useLazyFetch('/api/products');
+const { data: products, pending } = await useLazyFetch("/api/products");
 </script>
+
+<style scoped>
+
+.diagram-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.diagram {
+  margin: 20px 0 20px 0;
+  width: 600px;
+  height: 500px;
+  object-position: center;
+  object-fit: cover;
+}
+</style>
